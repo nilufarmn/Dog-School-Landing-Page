@@ -1,0 +1,2323 @@
+@font-face {
+    font-family: "Parastoo";
+    src: url(../font/parastoo-font-v1.0.0-alpha5/), url(../font/parastoo-font-v1.0.0-alpha5/web/Parastoo.woff) format("woff"), url(../font/parastoo-font-v1.0.0-alpha5/web/Parastoo.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tanha";
+    src: url(../font/tanha-font-v0.9/Tanha.eot), url(../font/tanha-font-v0.9/Tanha.woff) format("woff"), url(../font/tanha-font-v0.9/Tanha.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vazir";
+    src: url(../font/vazir-font-v18.0.0/Vazir-Bold.eot), url(../font/vazir-font-v18.0.0/Vazir-Bold.woff) format("woff"), url(../font/vazir-font-v18.0.0/Vazir-Medium.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Shabnam";
+    src: url(../font/shabnam-font-v2.4.0/Shabnam-Bold.eot), url(../font/shabnam-font-v2.4.0/Shabnam.woff) format("woff"), url(../font/shabnam-font-v2.4.0/Shabnam.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Afsoon";
+    src: url(../font/Afsoon/pixelboy-Afsoon.eot), url(../font/Afsoon/pixelboy-Afsoon.woff) format("woff"), url(../font/Afsoon/pixelboy-Afsoon.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nazanin";
+    src: url(../font/nazanin.otf), format("otf");
+    font-style: normal;
+}
+
+body {
+    font-family: "Parastoo";
+    overflow: auto;
+    overflow-x: hidden !important;
+}
+
+.padding-0 {
+    padding: 0 !important;
+}
+
+.margin-20 {
+    margin: 20px;
+}
+
+.indicators {
+    position: relative;
+    left: 0;
+    margin: auto;
+}
+
+.carousel-indicators .active li {
+    background-color: #ea5209;
+}
+
+.bgcolorgreen {
+    background-color: #cee6b4 !important;
+}
+
+.bgcolorblue {
+    background-color: #a4ebf3 !important;
+}
+
+.bgcolorpink {
+    background-color: #f6dfeb !important;
+}
+
+.bgcolorpurple {
+    background-color: #c9cbff !important;
+}
+
+.bgcolorred {
+    background-color: red;
+}
+
+.bgpic1 {
+    background-image: url(../img/image1.jpg) !important;
+}
+
+.bgpic2 {
+    background-image: url(../img/image2.jpg) !important;
+}
+
+.bgpic3 {
+    background-image: url(../img/image3.jpg) !important;
+}
+
+.bgback {
+    background-color: #f85d22;
+}
+
+.directiontext {
+    direction: ltr;
+    text-align: end;
+}
+
+.directionrtl {
+    direction: rtl;
+}
+
+.directionltr {
+    direction: ltr;
+}
+
+.marginbtm {
+    margin-bottom: 40px;
+}
+
+.marginTP {
+    margin-top: 20px;
+}
+
+.marginleft {
+    margin-left: 30px;
+}
+
+.rotate45 {
+    transform: rotate(-45deg);
+}
+
+.colorblack {
+    color: #000;
+}
+
+.paragraphmargin {
+    margin: 50px 1px;
+}
+
+.overflowhidden {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.bgradius {
+    background-color: #eeeded47;
+    border-radius: 34px;
+    box-shadow: 3px 7px 5px #d4d2d2;
+    position: relative;
+    z-index: 1;
+}
+
+.bgradius2 {
+    background-color: #ed6436;
+    border-radius: 34px;
+    box-shadow: 3px 7px 5px #d4d2d2;
+    position: relative;
+    z-index: 3;
+    transform: scale(1.1);
+}
+
+#ulclass {
+    text-align: center;
+    direction: rtl;
+    background-color: #fff;
+    height: auto;
+    box-shadow: 0px 0px 0px #000;
+    border: none;
+}
+
+#myNavbar {
+    direction: rtl;
+    text-align: center;
+}
+
+.cfstyle {
+    background-color: #fff;
+    padding: 0 19px;
+    direction: rtl;
+}
+
+.websiteheader {
+    display: flex;
+}
+
+.whitecolor {
+    color: #fff;
+}
+
+.bgwhite {
+    background-color: #fff;
+    box-shadow: -1px 4px 7px 0px #eeecec;
+}
+
+.websiteheader a {
+    padding-top: 5px;
+    padding-right: 4px;
+    color: #333;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: 1.7rem;
+}
+
+.websiteheader a:hover {
+    color: #ff5e00;
+    text-decoration: none;
+}
+
+.navbar-nav>li>a {
+    color: #6c6969;
+    font-size: 1.35rem;
+    margin-right: 15px;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.navbar-nav>li>a:hover {
+    border-bottom: 3px solid rgb(253, 93, 0);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-weight: 0;
+}
+
+.nav .open>a:focus,
+.nav .open>a:hover {
+    background-color: #eee;
+    border-bottom: 3px solid rgb(253, 93, 0);
+}
+
+#signupbtn {
+    border-radius: 18px;
+    border-top-right-radius: 0px;
+    margin-top: 7px;
+    background-color: #ff7410cc;
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    box-shadow: 1px 2px 2px #bdafaf;
+    transition: 0.3s;
+}
+
+#signupbtn:hover {
+    border-radius: 18px;
+    border-top-right-radius: 0px;
+    margin-top: 7px;
+    background-color: #ffffffcc;
+    color: #ff5e00;
+    border: 1px solid rgb(90, 90, 90);
+    font-weight: 600;
+    box-shadow: 1px 2px 2px #bdafaf;
+}
+
+.navbar-header a {
+    width: 100%;
+    display: flex;
+}
+
+.shopicon {
+    float: left;
+    margin: 16px 9px;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #ea5209;
+}
+
+.dropdown-menu>li>a {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.dropdown-menu>li>a:hover {
+    margin-bottom: 4px;
+    background-color: white;
+    border-bottom: 2px solid #ff5e00;
+}
+
+.col7image img {
+    transform: scaleX(1);
+    width: 91%;
+    margin-left: -12px;
+    margin-top: -58px;
+}
+
+.colsm5elements h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #333;
+    font-weight: 600;
+    /* padding: 12px; */
+    margin-bottom: 11px;
+    margin-top: 62px;
+}
+
+.colsm5elements p {
+    direction: ltr;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #333;
+    padding: 16px;
+    text-align: center;
+    line-height: 3.1rem;
+}
+
+.colsm5elements {
+    padding: 32px;
+}
+
+.colsmbutton {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 16px 0px;
+    padding: 12px 13px;
+}
+
+#btn1 {
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    box-shadow: 1px 0px 2px #b9b4bab3;
+    border: 2px solid #ffffff;
+    background-color: #fffefd;
+    color: #333;
+    width: 25%;
+    height: 50px;
+    float: right;
+    direction: ltr;
+    transition: 0.5s;
+    border: none;
+    margin: 0px;
+    /* padding: 7px 7px; */
+    font-size: 1.8rem;
+    font-weight: bolder;
+    border: 2px solid #ea5209;
+}
+
+#btn2 {
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    box-shadow: 1px 0px 2px #b9b4bab3;
+    border: 2px solid #ffffff;
+    background-color: #ea5209;
+    color: #fff;
+    width: 25%;
+    height: 50px;
+    float: right;
+    direction: ltr;
+    transition: 0.5s;
+    border: none;
+    margin: 0px;
+    /* padding: 7px 7px; */
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+#btn1:hover {
+    background-color: #ea5209;
+    color: #fff;
+}
+
+#btn2:hover {
+    background-color: #fff;
+    border: 1px solid #ea5209;
+    color: #ea5209;
+}
+
+.colsm5elements i {
+    padding-right: 10px;
+    margin-right: 1px;
+    font-size: x-large;
+}
+
+.icons {
+    margin-right: 17px;
+    display: flex;
+    direction: ltr;
+    font-size: 1.7rem;
+    justify-content: space-evenly;
+}
+
+.colsmbutton button {
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    box-shadow: 1px 0px 2px #b9b4bab3;
+    border: 2px solid #ffffff;
+    background-color: #ea5209;
+    color: #fff;
+    width: 25%;
+    height: 50px;
+    float: right;
+    direction: ltr;
+    transition: 0.5s;
+    border: none;
+    margin: 0px;
+    /* padding: 7px 7px; */
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.colsmbutton button:hover {
+    background-color: #fff;
+    color: #ff5e00;
+    border: none;
+}
+
+#btn1 :hover {
+    background-color: #ff5e00;
+    color: #000;
+}
+
+.paragraphn {
+    height: auto;
+    border-radius: 20px;
+    padding: 63px 10px;
+    color: #000000;
+    direction: rtl;
+    font-size: 1.5rem;
+    box-shadow: 3px 3px 11px #dfdfdf;
+    position: relative;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    margin: 20px 20px;
+}
+
+.paragraphs {
+    font-family: "Parastoo";
+}
+
+paragraphs i {
+    padding: 10px 10px;
+}
+
+.paragraphs span {
+    display: flex;
+    justify-content: center;
+    font-size: 4.8rem;
+    padding: 12px 12px;
+    direction: ltr;
+    color: #000;
+}
+
+.arrowicon span {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    padding: 12px 7px;
+    direction: ltr;
+    color: #000;
+}
+
+.arrowicon {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+}
+
+.paragraphs h1 {
+    font-size: 2.1rem;
+    font-weight: 900;
+    position: relative;
+    color: #000;
+    padding: 15px 15px;
+    margin: 1px 1px;
+    text-align: center;
+}
+
+.paragraphs p {
+    font-size: 1.5rem;
+    color: #333;
+    padding: 15px 15px;
+    margin: 1px 1px;
+}
+
+.paragraphs a {
+    font-family: "Shabnam";
+    transition: 0.5s;
+    color: #000;
+    margin: 10px 4px;
+}
+
+.paragraphn a:hover {
+    text-decoration: none;
+    color: rgb(0, 12, 185);
+}
+
+.paragraphn i:hover {
+    color: rgb(0, 12, 185);
+}
+
+.secondimg img {
+    transform: scaleX(-1);
+    width: 100%;
+    margin: 14px;
+}
+
+.paragraphblock {}
+
+.paragraphblock h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #333;
+    margin: 50px 6px;
+}
+
+.paragraphblock p {
+    font-size: 2.1rem;
+    color: #333;
+    margin: 50px 6px;
+    font-family: "Shabnam";
+}
+
+.paragraphblock h3 {
+    color: #ed6436;
+    font-size: 4rem;
+    margin: 50px 6px;
+    font-weight: bolder;
+}
+
+.checkicons {
+    margin: 30px 6px;
+}
+
+.checkicons span {
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #333;
+    margin: 19px 15px 15px 5px;
+    font-family: "Tanha";
+}
+
+.checkicons {}
+
+.checkicons i:hover {
+    color: #7eb5a6;
+}
+
+.borderbd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #eaeaea;
+    border-bottom-right-radius: 109%;
+    background-color: #eaeaea;
+    width: 100%;
+    height: 27vh;
+    opacity: 0.2;
+}
+
+.borderbd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #eaeaea;
+    border-bottom-right-radius: 109%;
+    background-color: #eaeaea;
+    width: 100%;
+    height: 25vh;
+    opacity: 0.4;
+}
+
+.paragraphblock {
+    position: relative;
+    z-index: 2;
+    margin: 50px 10px;
+    direction: rtl;
+}
+
+#paragraphn1 {
+    margin-top: 233px;
+    border-radius: 15px;
+}
+
+.checkicons h5 {
+    display: inline;
+    font-size: large;
+    color: #1c395a;
+}
+
+.headericons {
+    color: #333;
+    display: flex;
+    direction: rtl;
+    font-size: 3rem;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.headericonstext {
+    padding-left: 3px;
+    color: #333;
+    direction: rtl;
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Tanha";
+}
+
+.headericons span {
+    font-size: 4.5rem;
+}
+
+.icons {
+    margin-right: 7px;
+    padding-left: 11px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Parastoo";
+    display: inline-block;
+    direction: rtl;
+    font-size: 17.5px;
+    text-align: center;
+}
+
+.colsm5elements i {
+    margin-right: 4px;
+    font-size: 3rem;
+}
+
+.icons {
+    margin-right: 17px;
+    padding-left: 19px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Parastoo";
+    display: flex;
+    direction: rtl;
+    font-size: 18.5px;
+    text-align: center;
+    justify-content: end;
+}
+
+.notes {
+    direction: rtl;
+    margin: 30px 6px;
+}
+
+.notes h1 {
+    font-size: 6rem;
+    color: #333;
+    font-weight: 600;
+    font-family: "Tanha";
+}
+
+.notes h5 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ed6436;
+    margin: 10px 10px;
+    font-family: "Tanha";
+}
+
+.images img {
+    border-radius: 4px;
+    box-shadow: 3px 4px 8px #a6a6a6;
+}
+
+#mybtn {
+    background-color: #ea753e;
+    color: #fff;
+    border-radius: 16px;
+    border-top-right-radius: 0px;
+    width: 34%;
+    height: 100%;
+    margin-top: 23px;
+}
+
+.images {
+    position: relative;
+}
+
+.images img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.bgpic {
+    background-image: url(../img/image1.jpg);
+    height: 400px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px #a29b9b;
+}
+
+.pictext {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #b0a3a3;
+    font-weight: 700;
+    opacity: 0;
+    transition: 0.5s;
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pictext:hover {
+    opacity: 0.9;
+    background-color: #64616199;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.pictext h1 {
+    padding-top: 10px;
+    font-weight: 900;
+    color: #fff;
+    font-family: "Tanha";
+}
+
+.pictext h4 {
+    padding-top: 150px;
+    font-weight: 900;
+    color: #fff;
+    font-family: "Tanha";
+}
+
+#namayeshbtn {
+    background-color: #1b37ff9c;
+    color: rgb(255, 255, 255);
+    border-radius: 16px;
+    border-top-left-radius: 0px;
+    width: 36%;
+    /* height: 95%; */
+    margin-top: 39px;
+    padding: 9px;
+    font-size: 2rem;
+    font-family: "Tanha";
+}
+
+.bgpic {
+    margin-bottom: 47px;
+    margin-top: 18px;
+}
+
+#Namayesh {
+    background-color: #003dea87;
+    color: #ffffff;
+    border-top-right-radius: 0;
+    border-radius: 23px;
+    border-top-right-radius: 0;
+    height: 60px;
+    width: 131px;
+    font-size: 2rem;
+    margin-top: 38px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 37px;
+    transition: 0.1s;
+}
+
+#Namayesh:hover {
+    background-color: #07a7e687;
+    color: #000;
+    transition: 0.1s;
+}
+
+.boneh3 h3 {
+    position: relative;
+    z-index: 10;
+    top: 21%;
+    left: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.3rem;
+    transition: 5s;
+    transform: rotate(-6deg);
+}
+
+.boneh3 img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+.boneh3:hover {
+    transform: rotate(-6deg);
+    transition: 0.5s;
+}
+
+.welcome {
+    direction: ltr;
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #6a6a6a;
+    text-align: end;
+    margin: 50px 1px;
+}
+
+.boneh3 {
+    position: relative;
+    height: 130px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    transition: transform 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    padding-bottom: 46px;
+    margin: 37px 1px;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    border: 5px solid rgb(141 140 140);
+    padding: 33px 1px;
+    justify-content: center;
+    margin-left: 60px;
+    font-size: 4rem;
+}
+
+.circlequarter {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    border: 5px solid rgb(166 166 166);
+    justify-content: center;
+    font-size: 4rem;
+    padding: 36px 1px;
+    border-bottom-color: #ed6436;
+    border-top-color: #ed6436;
+    border-right-color: #ed6436;
+    transform: rotate(45deg);
+    margin-left: 60px;
+}
+
+.halfcircle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    border: 5px solid rgb(166 166 166);
+    justify-content: center;
+    font-size: 4rem;
+    padding: 36px 1px;
+    border-top-color: #ed6436;
+    border-right-color: #ed6436;
+    transform: rotate(45deg);
+    margin-left: 60px;
+}
+
+.quarter {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    border: 5px solid rgb(166 166 166);
+    justify-content: center;
+    font-size: 4rem;
+    padding: 36px 1px;
+    border-top-color: #ed6436;
+    transform: rotate(45deg);
+    margin-left: 60px;
+}
+
+.undertext {
+    text-align: center;
+    color: #333;
+    font-family: "Shabnam";
+}
+
+.iconcircle {
+    transform: rotate(-45deg);
+}
+
+.undertext h3 {
+    color: #ed6436;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.paragraphicon p {
+    display: inline-block;
+    margin-left: 190px;
+    margin-top: 10px;
+    font-weight: 900;
+    color: #454545;
+    font-family: "Tanha";
+    direction: rtl;
+}
+
+.paragraphicon1 p {
+    display: inline-block;
+    margin-left: 190px;
+    margin-top: 10px;
+    font-weight: 900;
+    color: #fff;
+    font-family: "Tanha";
+    /* direction: rtl; */
+    font-size: 2rem;
+}
+
+.paragraphicon {
+    direction: ltr;
+}
+
+.paragraphicon1 {
+    direction: ltr;
+}
+
+.texticon h1 {
+    float: left;
+    margin-left: 60px;
+}
+
+.texticon1 h1 {
+    float: left;
+    margin-left: 60px;
+}
+
+.daysprice h4 {
+    text-align: center;
+    font-weight: 700;
+    color: #333;
+    font-size: 2.2rem;
+    font-family: 'Parastoo';
+    margin: 28px 8px;
+}
+
+.daysprice h1 {
+    font-weight: 600;
+    color: #333;
+    font-size: 2.1rem;
+    text-align: center;
+    margin: 28px 8px;
+}
+
+.daysprice1 h4 {
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: 'Parastoo';
+    margin: 28px 8px;
+}
+
+.daysprice1 h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: 'Parastoo';
+    /* margin: 43px 8px; */
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.daysprice1 span {
+    position: absolute;
+    left: 46%;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.paragraphicon i {
+    color: rgb(33, 192, 28);
+    font-size: 1.8rem;
+}
+
+.paragraphicon1 i {
+    color: #fff;
+}
+
+.daysprice {
+    padding: 41px 0px;
+    margin: 7px 0px;
+}
+
+.texticon h2 {
+    margin: 1px 153px 0px 0px;
+    font-size: 2rem;
+    font-family: 'Tanha';
+    color: #fff;
+}
+
+.texticon1 h2 {
+    margin: 28px 35%;
+    font-size: 2.5rem;
+    font-family: "Tanha";
+    font-weight: 700;
+    color: #000;
+}
+
+.texticon1 {
+    margin-top: 84px;
+}
+
+.daysprice span {
+    margin: 7px 46%;
+    font-size: 3rem;
+}
+
+.daysprice {
+    padding: 0;
+    margin: 0;
+}
+
+.line1 {
+    border: 1px dashed #000;
+}
+
+.titlemain h3 {
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    float: left;
+    padding: 3px 0px;
+    margin: 25px 10px;
+    color: #ea5209;
+}
+
+.showallbtn {
+    border-radius: 35px;
+    border-top-right-radius: 0px;
+    box-shadow: 1px 0px 2px #b9b4bab3;
+    background-color: #ea5209;
+    color: #fff;
+    width: 45%;
+    height: 55px;
+    direction: ltr;
+    transition: 0.5s;
+    border: none;
+    margin: 59px 49px;
+    padding: 12px 13px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.showallbtn1 {
+    border-radius: 35px;
+    border-top-right-radius: 0px;
+    box-shadow: 1px 0px 2px #b9b4bab3;
+    background-color: #ea5209;
+    color: #fff;
+    width: 45%;
+    height: 55px;
+    direction: ltr;
+    transition: 0.5s;
+    border: none;
+    /* margin: 59px 49px; */
+    padding: 12px 13px;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 30px 7px;
+}
+
+.showallbtn:hover {
+    background-color: #fff;
+    border: 2px solid #ea5209;
+    color: #ea5209;
+    transition: 0.5s;
+}
+
+.showallbtn1:hover {
+    background-color: #fff;
+    border: 2px solid #ea5209;
+    color: #ea5209;
+    transition: 0.5s;
+}
+
+.ourprices {
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 60px;
+    font-family: "Parastoo";
+    color: #ea5209;
+}
+
+.pricelist h6 {
+    float: left;
+    font-size: 1.8rem;
+    color: #141415;
+    direction: rtl;
+    font-weight: 900;
+    margin-top: 13px;
+}
+
+.pricelist p {
+    display: inline-block;
+    font-size: 2rem;
+    color: #4b4b4b;
+    font-weight: 900;
+}
+
+.afterdot::after {
+    content: "";
+    width: 67%;
+    border: 1px dashed #333;
+    position: absolute;
+    margin: 17px 12px;
+}
+
+.pricelist {
+    font-family: "Tanha";
+}
+
+#loremtext {
+    direction: rtl;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.titlemain {
+    display: flex;
+    justify-content: right;
+}
+
+.pricelist h5 {
+    float: right;
+    font-size: 1.77rem;
+    font-weight: 700;
+    color: #ea5209;
+}
+
+.titlemain span {
+    margin: 10px 0px;
+    height: 100%;
+    font-size: 4.5rem;
+    color: #79a58d;
+    margin-right: -8px;
+}
+
+.fisrtlevel {
+    border: 9px solid #333;
+    border-radius: 50%;
+    width: 322px;
+    height: 107px;
+    border-top-color: #ea5209;
+    border-right-color: #ea5209;
+    transform: rotate( 45deg);
+    margin: 56px 0px;
+}
+
+.secondlevel {
+    border: 9px solid #000;
+    border-radius: 50%;
+    width: 271px;
+    height: 99px;
+    border-top-color: #ea5209;
+    border-right-color: #ea5209;
+    border-bottom-color: #ea5209;
+    transform: rotate( 45deg);
+    margin: 51px 0px;
+    width: 322px;
+    height: 107px;
+}
+
+.secondlevel h1 {
+    margin: 29% 39%;
+    transform: rotate(-45deg);
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.fisrtlevel h1 {
+    margin: 29% 45%;
+    transform: rotate(-45deg);
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.thirdlevel {
+    border: 9px solid #ea5209;
+    border-radius: 50%;
+    width: 322px;
+    height: 107px;
+    margin: 51px 0px;
+}
+
+.thirdlevel h1 {
+    margin: 25% 36%;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.leveltext {
+    margin: 0px 31px;
+    line-height: 34px;
+}
+
+.circles {
+    display: flex;
+}
+
+.leveltext p {
+    color: #000;
+    font-weight: bold;
+    direction: rtl;
+}
+
+.leveltext h3 {
+    color: #ea5209;
+    font-weight: 900;
+    direction: rtl;
+    font-family: 'Tanha';
+}
+
+.bggrey {
+    background-color: #f4f4f4d9;
+    padding-top: 100px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 100px;
+}
+
+.teammember h2 {
+    text-align: center;
+    margin: 30px 7px;
+    font-weight: bold;
+    color: #ea5209;
+    font-size: 4rem;
+}
+
+.teamnames {
+    text-align: center;
+    color: #3f3f3f;
+    margin-right: 60px;
+}
+
+.teamnames h1 {
+    /* margin: 19px 8px; */
+    color: #333;
+    /* font-weight: bold; */
+    margin: 30px 7px;
+    font-family: "Tanha";
+}
+
+.teamnames h5 {
+    font-size: 2rem;
+    color: #ea5209;
+    margin: 30px 7px;
+    font-family: "Tanha";
+}
+
+.girldog img {
+    width: 100%;
+    transform: scaleX(-1);
+    margin-left: -18rem;
+}
+
+.image1 {
+    text-align: center;
+}
+
+.icontext {
+    display: flex;
+    margin: 42px -8;
+    flex-direction: row;
+}
+
+.icontext2 {
+    display: flex;
+    direction: ltr;
+    text-align: center;
+    margin: 32px -15px;
+    font-size: 1.5rem;
+}
+
+.image1 p {
+    color: #333;
+    line-height: 32px;
+    margin-top: 28px;
+    font-size: 1.6rem;
+    font-family: "Shabnam";
+}
+
+.image2 p {
+    color: #333;
+    line-height: 32px;
+    margin-top: 28px;
+    font-size: 1.6rem;
+    font-family: "Shabnam";
+}
+
+.girldogtext p {
+    color: #333;
+    font-weight: 900;
+    line-height: 32px;
+    margin-top: 28px;
+}
+
+.image1 span {
+    color: #000;
+}
+
+.image2 span {
+    color: #000;
+}
+
+.girldogtext span {
+    color: red;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.image1 span {
+    font-size: 47px;
+    color: #3f3d3d;
+}
+
+.image1 h5 {
+    font-size: 2.1rem;
+    font-weight: 900;
+    color: #d0524c;
+    margin-top: 25px;
+}
+
+.mandog img {
+    width: 100%;
+    transform: scaleX(-1);
+    margin-left: 19rem;
+}
+
+.image2 h5 {
+    font-size: 2.4rem;
+    color: #ea5209;
+    font-weight: 900;
+    margin-top: 28px;
+}
+
+.image2 span {
+    font-size: 41px;
+    color: #333;
+}
+
+.user-image {
+    overflow: hidden;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.user-image img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.buybtn {
+    background-color: #ed6436;
+    color: #fff;
+    margin: 10px 3px;
+    padding: 10px 9px;
+    border-radius: 30px;
+    border-radius-top-left: 0;
+    border-top-right-radius: 0;
+    font-weight: 900;
+    border: none;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 200px;
+}
+
+.slidertext p {
+    direction: rtl;
+    text-align: center;
+    margin: 24px 0px;
+    /* font-weight: bolder; */
+    color: #333;
+    line-height: 1.5cm;
+    font-family: 'Parastoo';
+}
+
+.slider-icons {
+    direction: rtl;
+    text-align: center;
+}
+
+#ownerName {
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #ea5209;
+}
+
+.colororang {
+    color: #ea5209;
+    background-color: #ea5209;
+}
+
+.carousel-indicators ol li:active {
+    background-color: #000;
+}
+
+.slider-icons p {
+    font-weight: 900;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.catpic img {
+    transform: scaleX(-1);
+    margin-left: -18rem;
+    width: 100%;
+}
+
+.contactparagraph {
+    direction: rtl;
+    font-family: "Shabnam";
+    direction: rtl;
+    font-family: "Tanha";
+    padding: 18px 37px;
+}
+
+.contactparagraph p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #ea5209;
+    margin: 30px 8px;
+    font-family: 'Parastoo';
+}
+
+.contactparagraph h4 {
+    color: #333;
+    font-weight: 900;
+    font-size: 3.5rem;
+    font-family: 'Parastoo';
+    margin-top: 30px;
+}
+
+.forminput {}
+
+.forminput input {
+    border-radius: 42px;
+    width: 74%;
+    height: 56px;
+    color: #b6a6a6;
+    margin: 3px 30px;
+    border: none;
+    padding: 21px;
+}
+
+.forminput input:hover {
+    border: 1px solid #ea5209;
+    transition: 0.5s;
+}
+
+#formmassage {
+    height: 60%;
+}
+
+.sendMassageBTN button {
+    margin: 17px 28px;
+    border-radius: 18px;
+    width: 27%;
+    height: 36px;
+    border-top-right-radius: 0;
+    background-color: #ea5209;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 36px;
+    margin-right: 40px;
+    transition: 0.5s;
+}
+
+.forms {
+    background-color: #f2f2f2bf;
+    border-radius: 10%;
+    box-shadow: 4px 4px 9px #c2c2c2;
+}
+
+.sendMassageBTN button:hover {
+    background-color: #fff;
+    color: #ea5209;
+    border: 1px solid #ea5209;
+    font-weight: 700;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    background-color: #dbd7d752;
+    direction: rtl;
+    font-family: "Tanha";
+    border-radius: 10px;
+    margin: 43px 0px;
+    box-shadow: 6px 5px 9px #a49999;
+}
+
+.item {
+    /* margin: 10px 10px; */
+    font-size: 1.8rem;
+    color: #333;
+    font-family: 'Parastoo';
+    /* margin-bottom: 17px; */
+    margin: 15px 20px;
+    padding: 8px 5px;
+    text-align: center;
+}
+
+.item span {
+    font-size: 2rem;
+    color: #ea5209;
+}
+
+.iconinfo p {
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Tanha';
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.image-text img {
+    border-top-right-radius: 21px;
+    border-top-left-radius: 21px;
+}
+
+.iconImage {
+    display: flex;
+    align-items: center;
+    direction: rtl;
+}
+
+.item p {
+    margin: 10px 0px;
+    font-family: 'Vazir';
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.iconImage h5 {
+    direction: rtl;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #333;
+    text-shadow: 1px 0px 2px #b0aeae;
+    margin-right: 18px;
+}
+
+.iconsfooter i {
+    font-size: 2rem;
+    background-color: #f85d22;
+    color: #fff;
+    padding: 10px 11px;
+    border-radius: 50%;
+    transition: 0.3s;
+    margin-left: 20px;
+}
+
+.iconsfooter i:hover {
+    background-color: #fff;
+    color: #f85d22;
+    border: 1px solid #f85d22;
+}
+
+.iconsfooter {
+    display: flex;
+    justify-content: end;
+    padding: 2px 12px 0px 2px;
+    margin: 11px 6px;
+}
+
+.aboutUsOItems {
+    display: flex;
+    align-items: center;
+}
+
+.aboutUsOItems p {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #333;
+    direction: rtl;
+    margin: 8px 8px;
+}
+
+.aboutUsText h5 {
+    direction: rtl;
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: #f85d22;
+}
+
+.aboutUsOItems span {
+    color: #f85d22;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.quicklinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.quicklinks a {
+    margin: 8px 8px;
+    color: #333;
+    font-weight: 800;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.quicklinks a:hover {
+    color: #f85d22;
+    text-decoration: none;
+}
+
+.quicklinkheader h5 {
+    direction: rtl;
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: #f85d22;
+}
+
+.websitebtn h5 {
+    direction: rtl;
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: #f85d22;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 8px;
+}
+
+#emailbtn {
+    margin: 15px 0px;
+    background-color: #fff;
+    color: #7c7c7c;
+    border-radius: 39px;
+    font-weight: 900;
+    border: 1px solid #989696;
+    transition: 0.5s;
+}
+
+#emailbtn:hover {
+    border: 1px solid #f85d22;
+}
+
+#subscribebtn {
+    background-color: #f85d22;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 39px;
+    border-top-right-radius: 0px;
+    font-size: 1.66rem;
+    transition: 0.3s;
+}
+
+#subscribebtn:hover {
+    background-color: #fff;
+    color: #f85d22;
+    border: 2px solid #f85d22;
+    transition: 0.3s;
+}
+
+.copyright {
+    text-align: center;
+    margin: 15px 0px;
+    font-weight: 800;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.footer {
+    margin: 50px 0px;
+}
+
+.notes h1 {
+    font-size: 5rem;
+    padding: 19px 2px;
+}
+
+#Namayesh {
+    margin-left: 99px;
+}
+
+.welcome {
+    direction: ltr;
+    font-size: 4rem;
+    color: #6a6a6a;
+    text-align: center;
+    margin: auto;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    border: 5px solid rgb(141 140 140);
+    padding: 33px 1px;
+    justify-content: center;
+    margin-left: 60px;
+    font-size: 4rem;
+}
+
+.circlequarter {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    border: 5px solid rgb(166 166 166);
+    justify-content: center;
+    font-size: 4rem;
+    padding: 36px 1px;
+    border-bottom-color: #ed6436;
+    border-top-color: #ed6436;
+    border-right-color: #ed6436;
+    transform: rotate( 45deg);
+    margin-left: 60px;
+}
+
+.halfcircle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    border: 5px solid rgb(166 166 166);
+    justify-content: center;
+    font-size: 4rem;
+    padding: 36px 1px;
+    border-top-color: #ed6436;
+    border-right-color: #ed6436;
+    transform: rotate( 45deg);
+    margin-left: 60px;
+}
+
+.quarter {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    border: 5px solid rgb(166 166 166);
+    justify-content: center;
+    font-size: 4rem;
+    padding: 36px 1px;
+    border-top-color: #ed6436;
+    transform: rotate( 45deg);
+    margin-left: 60px;
+}
+
+.firstlevel {
+    border: 9px solid #000;
+    border-radius: 50%;
+    width: 281px;
+    height: 112px;
+    border-top-color: #ea5209;
+    border-right-color: #ea5209;
+    transform: rotate(45deg);
+    margin: 51px 0px;
+}
+
+.secondlevel {
+    height: 100px;
+}
+
+.thirdlevel {
+    width: 309px;
+    height: 98px;
+}
+
+.afterdot::after {
+    width: 34%;
+}
+
+.titlemain h3 {
+    font-size: 2rem;
+}
+
+.row {
+    max-width: 100%;
+}
+
+#shopicon {
+    float: left;
+    margin: 15px 8px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.navbarul {
+    margin-right: 130px;
+}
+
+.listitems span {
+    position: absolute;
+    left: 10%;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 800;
+}
+
+.listitems li {
+    list-style: none;
+    margin: 28px 8px;
+}
+
+.listitems ul {
+    margin-top: 85px;
+}
+
+.listitems1 li {
+    list-style: none;
+    margin: 28px 8px;
+}
+
+.listitems1 ul {
+    margin-top: 85px;
+}
+
+.listitems1 span {
+    position: absolute;
+    left: 10%;
+    font-size: 2rem;
+    color: #333;
+    font-weight: 800;
+}
+
+.listitems1 li {
+    list-style: none;
+}
+
+.daysprice1 {
+    height: 43rem;
+}
+
+.listitems p {
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Tanha';
+}
+
+.listitems1 p {
+    color: #333;
+    font-weight: 900;
+    font-family: 'Tanha';
+}
+
+.listitems1 span {
+    position: absolute;
+    right: 30%;
+    font-size: 2rem;
+    color: #000;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 900px) {
+    html {
+        overflow-x: hidden;
+    }
+    .cfstyle {
+        background-color: #ffff;
+        box-shadow: 18px 4px 4px #f2f0f0;
+        padding: 18px 9px;
+        direction: rtl;
+        max-height: 100%;
+        min-height: 100%;
+    }
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .row {
+        max-width: 100%;
+        overflow-x: hidden!important;
+    }
+    .container {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+    .container-fluid {
+        overflow-x: hidden!important;
+    }
+    .bgpic {
+        background-position: center;
+    }
+    .container {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .container-fluid {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .bgopacity {
+        background-image: url(../img/background.png);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        z-index: 1;
+        opacity: 0.4;
+        background-position: top;
+    }
+    .bgopacity2 {
+        background-image: url(../img/second[ic.png);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        z-index: 1;
+        opacity: 0.5;
+        background-position: top;
+    }
+    .colsm5elements {
+        position: relative;
+        z-index: 2;
+    }
+    .colsm5elements p {
+        color: #000;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 900;
+        background: #fbf2f27a;
+        border: none;
+        border-radius: 45px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .listitems ul {
+        margin-top: 85px;
+        padding: 0px;
+    }
+    .colsm5elements h1 {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 600;
+        padding: 3px;
+        margin-top: 18px;
+        line-height: initial;
+        color: #000;
+    }
+    .checkicons {
+        font-size: 3rem;
+        line-height: initial;
+        color: #000;
+    }
+    .navbar-header a {}
+    .notes h1 {
+        font-size: 3.4rem;
+        color: #6c6a6a;
+        font-weight: 600;
+        text-align: end;
+        direction: ltr;
+    }
+    .websiteheader {
+        position: absolute;
+        margin-left: 18px;
+        left: 26%;
+        margin-top: 7px;
+        direction: rtl;
+        font-size: 1rem;
+    }
+    .navbar-nav>li>a {
+        color: #000;
+        font-size: 1.3rem;
+        transition: 0.1s;
+        font-weight: 600;
+        text-align: center;
+    }
+    #navbar ul {
+        margin-right: 0px!important;
+    }
+    #btn1 {
+        width: 100%;
+        height: 55px;
+        margin-top: 20px;
+    }
+    #btn2 {
+        width: 100%;
+        height: 55px;
+        margin-top: 20px;
+    }
+    .circle {
+        margin-left: 107px;
+    }
+    .halfcircle {
+        margin-left: 107px;
+    }
+    .quarter {
+        margin-left: 107px;
+    }
+    .circlequarter {
+        margin-left: 107px;
+    }
+    .boneh3 {
+        margin: 50px 49px;
+    }
+    .dayprice {
+        margin-bottom: 71px;
+    }
+    .daysprice1 {
+        margin-bottom: 71px;
+    }
+    .firstlevel {
+        width: 450px;
+        height: 121px;
+    }
+    .fisrtlevel {
+        margin: 18px;
+    }
+    .secondlevel {
+        width: 100px;
+        height: 100px;
+        margin: 30px 0px;
+    }
+    .thirdlevel {
+        width: 100px;
+        height: 100px;
+        margin: 30px 0px;
+    }
+    .daysprice1 h4 {
+        margin: 8px -1px;
+        font-size: 1.9rem;
+    }
+    .daysprice1 h1 {
+        margin-top: 23px;
+        margin-bottom: 26px;
+        font-size: 1.8rem;
+    }
+    .listitems span {}
+    .paragraphicon1 p {
+        direction: rtl;
+        font-size: 1.5rem;
+        margin-left: 150px;
+    }
+    .texticon1 h2 {
+        margin: 3px 38%;
+        font-size: 1.5rem;
+    }
+    .daysprice1 span {
+        left: 45%;
+        font-size: 2.9rem;
+        margin-top: 7px;
+    }
+    .bgradius2 {
+        transform: none;
+    }
+    .daysprice h4 {
+        margin: 0px 0px;
+        font-size: 1.9rem;
+    }
+    .daysprice h4 {
+        margin: 20px 0px;
+        font-size: 2rem;
+    }
+    .daysprice span {
+        margin: 3px 46%;
+        font-size: 2.6rem;
+    }
+    .paragraphicon p {
+        font-size: 1.4rem;
+        margin-left: 150px;
+        margin-top: 7px;
+    }
+    .daysprice1 {
+        padding: 30px 0px;
+        margin: 5px 3px;
+    }
+    .texticon h2 {
+        font-size: 1.6rem;
+        margin: 12px 120px 12px 4px;
+    }
+    .daysprice {
+        padding: 16px 0px;
+        margin: 10px 0px;
+    }
+    .bgradius {
+        margin-bottom: 20px;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-right: 20px
+    }
+    .bgradius2 {
+        margin-bottom: 20px;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-right: 20px
+    }
+    .ourprices {
+        text-align: center;
+        margin-right: 49px;
+        font-size: 3rem;
+        margin-bottom: 35px;
+    }
+    .pricelist {
+        margin-bottom: 28px;
+        margin-top: 6px;
+    }
+    .listitems span {
+        left: 10%;
+        font-size: 1.4rem;
+    }
+    #loremtext {
+        font-size: 1.3rem;
+        font-size: 1.3rem;
+        color: #545252;
+        font-family: 'Parastoo';
+        margin-top: 6px;
+    }
+    .pricelist h5 {
+        font-family: 'Parastoo';
+        font-size: 1.8rem;
+    }
+    .pricelist h6 {
+        font-family: 'Parastoo';
+        font-size: 1.6rem;
+    }
+    .titlemain h3 {
+        font-size: 2rem;
+    }
+    .titlemain span {
+        margin: 27px;
+        height: 100%;
+        font-size: 2.5rem;
+        color: #eb624c;
+        margin-right: 0px;
+    }
+    .bggrey {
+        padding: 0;
+        margin: 0;
+    }
+    .leveltext h3 {
+        text-align: center;
+        margin: 0;
+        font-family: 'Parastoo';
+        margin: 0;
+        font-size: 2rem;
+    }
+    .leveltext p {
+        text-align: center;
+        margin-top: 14px;
+    }
+    .circles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .leveltext {
+        margin: 0px 31px;
+        line-height: 1cm;
+        font-size: 1.3rem;
+    }
+    .daysprice1 h2 {
+        padding-bottom: 35px
+    }
+    .websiteheader a {
+        color: #ea5209;
+        font-weight: 700;
+        transition: 0.5s;
+        font-size: 2rem;
+        font-family: 'Parastoo';
+    }
+    .navbarul {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 20px;
+    }
+    .navbar-nav .open .dropdown-menu>li>a {
+        font-weight: 700;
+        font-size: 1.3rem;
+        font-family: 'Parastoo';
+    }
+    .paragraphblock h3 {
+        color: #da4a05;
+        font-size: 2.8rem;
+        margin: 20px 0px;
+        text-align: center;
+        padding: 18px 0px;
+    }
+    .paragraphblock p {
+        font-size: 2.1rem;
+        color: #333;
+        margin: 19px 9px 16px 6px;
+        font-family: 'Vazir';
+    }
+    .bgopacity2 {
+        opacity: 0.3;
+    }
+    .paragraphblock h1 {
+        font-size: 2rem;
+        font-weight: bolder;
+        margin: 5px 0px;
+        line-height: 1cm;
+        color: #000;
+        text-align: center;
+    }
+    .flexreverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .showallbtn {
+        width: 50%;
+        height: 50%;
+        direction: ltr;
+        transition: 0.5s;
+        /* border: none; */
+        margin: 2px 64px;
+        padding: 10px 0px;
+        font-size: 1.9rem;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .notes {
+        margin: 9px 0px;
+    }
+    .notes h1 {
+        margin: 0px 0px;
+        font-size: 2.4rem;
+    }
+    .paragraphmargin {
+        margin: 40px 1px;
+        line-height: 2cm;
+        color: #eb6d31;
+        font-family: 'Shabnam'
+    }
+    .undertext p {
+        margin: 13px 40px;
+        font-size: 1.6rem;
+        font-weight: 900;
+        color: #333;
+    }
+    .undertext h3 {
+        margin-left: 30px;
+    }
+    .undertext {
+        margin-bottom: 40px;
+    }
+    .circles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .user {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .margin-20 {
+        margin: 0;
+    }
+    .indicators {
+        margin-right: 86px;
+    }
+    #ownerName {
+        font-weight: 900;
+        font-size: 1.9rem;
+        color: #ea5209;
+        text-align: center;
+        margin: 0px 0px;
+    }
+    .item p {
+        margin: 6px 0px;
+        font-family: 'Vazir';
+        font-size: 1.48rem;
+        text-align: center;
+        line-height: 1cm;
+    }
+    .fisrtlevel {
+        width: 100px;
+        height: 100px;
+    }
+    .teamnames h5 {
+        margin: 19px 1px;
+        font-family: 'Parastoo';
+        font-weight: 800;
+    }
+    .teamnames {
+        margin-right: 0px;
+    }
+    .showallbtn1 {
+        border-radius: 23px;
+        border-top-right-radius: 0px;
+        box-shadow: 1px 0px 2px #b9b4bab3;
+        background-color: #ea5209;
+        color: #fff;
+        width: 31%;
+        height: 52px;
+        direction: ltr;
+        transition: 0.5s;
+        border: none;
+        /* margin: 59px 49px; */
+        padding: 10px 13px;
+        font-size: 2rem;
+        font-weight: bolder;
+        margin: 15px 7px;
+    }
+    .ulclass {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .flexinverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .notes h5 {
+        margin: 0;
+    }
+    .colsmbutton {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 16px 0px;
+        padding: 12px 13px;
+        flex-direction: column-reverse;
+    }
+}
